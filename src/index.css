@@ -11,6 +11,14 @@
     background-color: #F0FFFF;
 }
 
+.lightMode .card-link {
+    color: #007FFF;
+}
+
+.lightMode .profile-text-highlight {
+    color: #007FFF;
+}
+
 .darkMode {
     background-color: #121212;
     color: #FBEAEB;
@@ -22,6 +30,19 @@
 
 .darkMode .card {
     background-color: #353839;
+}
+
+.darkMode .card-link {
+    color: #00bfff;
+}
+
+.darkMode .profile-text-highlight {
+    color: #00bfff;
+}
+
+.profile-text-highlight {
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 footer {

@@ -8,10 +8,11 @@ export default function Profile() {
           <img id='profilePic' src={profilePic} alt="profilePic" />
         </div>
         <div className="col">
-          <br />
-          <br />
           <h1>Hi! I'm Jiamin</h1>
-          <h5>As aFront-end Developerwith a keen eye for visual communication, I listen to every little feedback I get from the audience about my design. I'm passionate about developing the highest quality ReactJS products.</h5>
+          <br />
+          <h5>As a <span className='profile-text-highlight'>web developer</span> yearning for a wonderful interactive experience, I have been seeking to achieve business growth by optimizing the product design language and the overall project structure. I have a passion for developing creative front-end projects.</h5>
+          <br />
+          <h5>contact: jiaming2001_new@outlook.com</h5>
           <br />
           <br />
         </div>
