@@ -1,12 +1,34 @@
 import { atom } from 'recoil'
-import profilePic from './assets/tasProfile.jpg'
+import jp from './assets/jp.png'
 import epin from './assets/epin.png'
 import gsWar from './assets/gsWar.png'
 import virtualTour from './assets/virtualTour.png'
+import bootstrap from './assets/bootstrap.svg'
+import django from './assets/django-icon.svg'
+import html from './assets/html-5.svg'
+import css from './assets/css-3.svg'
+import javascript from './assets/javascript.svg'
+import python from './assets/python.svg'
+import react from './assets/react.svg'
+import recoil from './assets/recoil-icon.svg'
+import ubuntu from './assets/ubuntu.svg'
+import unity from './assets/unity.svg'
+import figma from './assets/figma.svg'
+import git from './assets/git-icon.svg'
 
 const projectListState = atom({
   key: 'projectListState',
   default: [
+    {
+      name: 'JP.top',
+      img: jp,
+      shortDesc: 'A personal portolio website',
+      longDesc: 'xxx',
+      codeURL: 'https://github.com/Jaimin1304/JP.top-portfolio',
+      liveURL: '/',
+      techStacks: 'React.js, CSS, Recoil.js, Bootstrap, Django',
+      isActive: true,
+    },
     {
       name: 'jobepin.com.au',
       img: epin,
@@ -39,23 +61,13 @@ const projectListState = atom({
     },
     {
       name: 'QR code Generater',
-      img: profilePic,
+      img: '',
       shortDesc: 'An web app that can create QR code for URL links',
       longDesc: 'xxx',
       codeURL: '',
       liveURL: '',
       techStacks: 'React.js, Recoil.js',
       isActive: false,
-    },
-    {
-      name: 'JP.top',
-      img: profilePic,
-      shortDesc: 'A personal portolio website',
-      longDesc: 'xxx',
-      codeURL: '',
-      liveURL: '/',
-      techStacks: 'React.js, CSS, Recoil.js, Bootstrap, Django',
-      isActive: true,
     },
   ],
 })
@@ -65,7 +77,26 @@ const darkModeState = atom({
   default: false,
 })
 
+const skillsState = atom({
+  key: 'skillsState',
+  default: [
+    {name: 'React', active: true, img: react},
+    {name: 'HTML', active: true, img: html},
+    {name: 'CSS', active: true, img: css},
+    {name: 'Javascript', active: true, img: javascript},
+    {name: 'Django', active: true, img: django},
+    {name: 'Python', active: true, img: python},
+    {name: 'Recoil', active: true, img: recoil},
+    {name: 'Bootstrap', active: true, img: bootstrap},
+    {name: 'Ubuntu', active: true, img: ubuntu},
+    {name: 'Unity', active: true, img: unity},
+    {name: 'Git', active: true, img: git},
+    {name: 'Figma', active: true, img: figma},
+  ],
+})
+
 export {
   projectListState,
   darkModeState,
+  skillsState,
 }

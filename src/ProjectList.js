@@ -15,7 +15,7 @@ export default function ProjectList() {
             ?
             <div className="col">
               <br />
-              <div className="card border-0">
+              <div className="card project-card border-0">
                 <img src={projectItem.img} className="card-img-top project-img" alt="profilePic" />
                 <div className="card-body">
                   <h4 className="card-title">{projectItem.name}</h4>
@@ -35,8 +35,6 @@ export default function ProjectList() {
             <></>
         ))}
       </div>
-      <br />
-      <br />
     </div>
   )
 }

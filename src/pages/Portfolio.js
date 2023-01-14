@@ -1,5 +1,6 @@
 import Profile from '../Profile'
 import ProjectList from '../ProjectList'
+import Skills from '../Skills'
 
 export default function Portfolio() {
   return (
@@ -10,7 +11,13 @@ export default function Portfolio() {
       <Profile />
       <br />
       <br />
+      <Skills />
+      <br />
+      <br />
+      <br />
       <ProjectList />
+      <br />
+      <br />
       <br />
       <br />
     </div>

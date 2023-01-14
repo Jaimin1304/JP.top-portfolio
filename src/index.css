@@ -48,17 +48,32 @@ footer {
     border-radius: 50%;
 }
 
-div {
-    font-family: QuickSand;
-    font-weight: 500;
-}
-
 #mainLogo {
     font-family: Comfortaa;
     font-size: 2em;
 }
 
-.card {
+#container-skills {
+    max-width: 60rem;
+}
+
+div {
+    font-family: QuickSand;
+    font-weight: 500;
+}
+
+
+.skill-card {
+    margin: auto;
+    width: 115px;
+}
+
+.skill-img {
+    height: 40px;
+    width: 300px;
+}
+
+.project-card {
     margin: auto;
     width: 270px;
 }
