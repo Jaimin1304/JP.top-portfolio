@@ -1,0 +1,85 @@
+.lightMode {
+    background-color: #FBEAEB;
+    color: #121212;
+}
+
+.lightMode .navbar {
+    background-color: #2F3C7E;
+}
+
+.lightMode .card {
+    background-color: #F0FFFF;
+}
+
+.darkMode {
+    background-color: #121212;
+    color: #FBEAEB;
+}
+
+.darkMode .navbar {
+    background-color: #2F3C7E;
+}
+
+.darkMode .card {
+    background-color: #353839;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    padding: 2em;
+    width: 100%;
+    bottom: 0;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2rem;
+}
+
+#profilePic {
+    margin: auto;
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+}
+
+div {
+    font-family: QuickSand;
+    font-weight: 500;
+}
+
+#mainLogo {
+    font-family: Comfortaa;
+    font-size: 2em;
+}
+
+.card {
+    margin: auto;
+    width: 270px;
+}
+
+.project-img {
+    height: 185px;
+    width: 300px;
+}
+
+.form-check-input, .form-check-label {
+    cursor: pointer;
+}
+
+/*
+.card-title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+*/
+
+.text-link, .text-link:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
